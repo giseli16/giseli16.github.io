@@ -1,0 +1,100 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.img-circle {
+    border: 5px solid #FFE01F;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+header img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+header img:hover {
+    width: 140px;
+    height: 140px;
+    transform: rotate(180deg);
+
+}
+
+header {
+    padding: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width:100%;
+    height: 200px;
+    background: url(bolitaAzul.jpg) left top repeat;
+    background-size: 136.6px 114px;
+    background-origin: content-box;
+    text-align: center
+}
+
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color:#E87334;
+    margin-top: 30px; 
+
+}
+
+
+#descripcion {
+    font-family: 'Satisfy', cursive;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.barra-menu{
+    margin: 7px 0 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(235, 229, 147);
+}
+
+.nav-item{
+    display: inline-block; /*Pone en línea los elementos*/
+    margin: 5px 10px; /*Les da espacio entre ellos*/
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+li a:hover {
+    background-color: rgb(179, 164, 164);
+}
+
+#about p{
+    font-family: 'Quattrocento Sans', sans-serif;
+    width: 500px;
+    height: 500px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-top: 30px;
+    background-origin: content-box;
+    font-size: 25px;
+    
+}
+
+#espacio{
+    margin-top: 100px;
+}
+
+h2 span{
+    border: 4px dashed#20bcd5;
+    padding: 10px;
+    text-align: center;
+    margin-left: 250px;
+    font-family: 'Comfortaa', cursive;
+}
